@@ -38,10 +38,10 @@ NONE  READ_COMMITTED  READ_UNCOMMITTED  REPEATABLE_READ SERIALIZABLE
   			auth="Container" 
   			type="javax.sql.DataSource"
 			maxActive="50" maxIdle="10" maxWait="10000"
-			username="root" password="root" 
+			username="" password="" 
 			driverClassName="com.mysql.jdbc.Driver"
 			defaultAutoCommit="false"
 			defaultTransactionIsolation="READ_COMMITTED"
-			url="jdbc:mysql://localhost:3306/hospital?autoReconnect=true"/>
+			url="jdbc:mysql://localhost:3306/db_name?autoReconnect=true"/>
 			
 </Context>
